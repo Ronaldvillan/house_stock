@@ -1,0 +1,35 @@
+.formulario {
+  display: flex;
+  gap: 10px; /* espacio entre inputs y botón */
+  justify-content: center; /* centra horizontalmente respecto al contenedor */
+  margin-top: 20px; /* separa del contenido de arriba */
+}
+
+.input {
+  padding: 8px 12px;
+  font-size: 14px;
+}
+
+.botonAgregar {
+  padding: 8px 16px;
+  font-size: 14px;
+  cursor: pointer;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+.botonAgregar:hover {
+  background-color: #45a049;
+}
+
+.input {
+  padding: 8px 12px;
+  font-size: 14px;
+}
+
+/* Hacer el input de nombre más ancho */
+.inputNombre {
+  width: 280px; /* o el valor que te parezca */
+}

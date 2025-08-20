@@ -1,0 +1,61 @@
+.appContainer {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.titulo {
+  text-align: center;
+}
+
+.tablaInventario {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.tablaInventario th,
+.tablaInventario td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+.tablaInventario th {
+  background-color: #f4f4f4;
+}
+
+.tablaInventario {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  table-layout: fixed; /* respeta los anchos de los th */
+}
+
+.tablaInventario th,
+.tablaInventario td {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+/* anchos por columna */
+.colProducto {
+  width: 50%;
+} /* más espacio al nombre */
+.colNum {
+  width: 8ch;
+} /* columnas numéricas angostas */
+.colAcciones {
+  width: 30%;
+} /* espacio para botones */
+
+/* centrado de números y orden en acciones */
+.tablaInventario th.colNum,
+.tablaInventario td:nth-child(2),
+.tablaInventario td:nth-child(3) {
+  text-align: center;
+}
+
+.tablaInventario td:nth-child(4) {
+  text-align: center;
+  white-space: nowrap; /* evita que los botones salten de línea */
+}

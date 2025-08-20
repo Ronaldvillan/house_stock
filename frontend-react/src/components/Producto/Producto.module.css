@@ -1,0 +1,30 @@
+.fila {
+  border-bottom: 1px solid #ccc;
+  font-size: 14px; /* un poco más chico */
+}
+
+.nombre {
+  font-weight: bold;
+  width: 40%; /* hace la columna de nombre más ancha, pero ajusta la tabla */
+}
+
+td {
+  padding: 6px 8px; /* menos espacio dentro de cada celda */
+  text-align: center;
+}
+
+.boton {
+  margin: 0 3px;
+  padding: 4px 8px; /* botones un poco más pequeños */
+  cursor: pointer;
+}
+
+.botonEliminar {
+  margin-left: 5px;
+  padding: 4px 8px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
